@@ -1,0 +1,29 @@
+{
+  "name": "CLI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyBojchenko/CLI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyBojchenko/CLI/issues"
+  },
+  "homepage": "https://github.com/SergeyBojchenko/CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0",
+    "uuid": "^8.3.2"
+  }
+}
